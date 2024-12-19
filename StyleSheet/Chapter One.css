@@ -1,0 +1,228 @@
+/*Custom Fonts-------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/*Body Contents ------后面的大背景--------------------------*/
+/*Body Contents ------后面的大背景--------------------------*/
+/*Body Contents ------后面的大背景--------------------------*/
+body {
+    text-align: center;
+    /*文字处于居中位置*/
+    background: rgb(212, 212, 134);
+    /*大背景的主题颜色*/
+    display: list-item;
+    text-align: center;
+    display: list-item;
+}
+
+/*Nav CSS-----------导航栏--------------------------------*/
+/*Nav CSS-----------导航栏--------------------------------*/
+/*Nav CSS-----------导航栏--------------------------------*/
+li {
+    float: left;
+}
+.Navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(139, 142, 57);
+    padding-right: 30px;
+    display: flex;
+ 
+}
+nav.navone {
+    background: rgb(139, 142, 57);
+    
+    border-radius: 30px;
+    padding-right: 60px;
+    /*右边导航栏到浏览器右边框的距离*/
+    padding-left: 60px;
+    /*左边导航栏到浏览器左边框的距离*/
+    padding-right: 30px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+   
+}
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+
+}
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: orange;
+    
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #196b0c;
+    min-width: 16px;
+    
+}
+.dropdown-content a {
+    color: rgb(139, 142, 57);
+    
+    padding: 10px 60px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover 
+.dropdown-content {
+    display: block;
+}
+
+
+div#body{
+    align-items: center;
+}
+
+
+/*主要内容*/
+/*主要内容*/
+/*主要内容*/
+div #introTitle{
+    line-height: 1.44em;
+    font-family: times, serif;
+    width: auto;
+    letter-spacing: normal;
+    text-transform: none;
+    word-spacing: normal;
+    text-align: center;
+    font-size: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 66pt;
+   
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About-------------------------------------------*/
+p3 {
+    font-size: 30px;
+    border-style: groove;
+}
+
+/*Chapter One-------------------------------------------*/
+p2 {
+    line-height: 1.44em;
+    font-family: times, serif;
+    font-size: 1em;
+    font-weight: normal;
+
+    width: auto;
+    letter-spacing: normal;
+    text-transform: none;
+    word-spacing: normal;
+    text-align: center
+}
+
+/*Footer CSS-------------------------------------------*/
+footer {
+    background: rgb(139, 142, 57);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+footer #contactInformation {
+   
+    text-align: center;
+    margin: auto;
+    width: 99%;
+   align-items: center;
+   position: absolute;
+}
+
+footer #contactInformation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+footer #contactInformation ul li {
+    display: inline-block;
+    margin: 10px;
+    height: 3px; 
+    
+}
+
+
+
+

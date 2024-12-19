@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&family=Shojumaru&family=Sriracha&display=swap');
+/*Custom Fonts-------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+
+/*Body Contents ------后面的大背景--------------------------*/
+/*Body Contents ------后面的大背景--------------------------*/
+/*Body Contents ------后面的大背景--------------------------*/
+body {
+    text-align: center;
+    /*文字处于居中位置*/
+    background: rgb(212, 212, 134);
+    /*大背景的主题颜色*/
+    display: list-item;
+    text-align: center;
+    display: list-item;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav CSS-----------导航栏--------------------------------*/
+/*Nav CSS-----------导航栏--------------------------------*/
+/*Nav CSS-----------导航栏--------------------------------*/
+/*Nav CSS-----------导航栏--------------------------------*/
+/*Nav CSS-----------导航栏--------------------------------*/
+/*Nav CSS-----------导航栏--------------------------------*/
+li {
+    float: left;
+}
+
+.Navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(139, 142, 57);
+    padding-right: 30px;
+    display: flex;
+
+}
+
+.navone {
+    background: rgb(139, 142, 57);
+    border-radius: 30px;
+    padding-right: 60px;
+    /*右边导航栏到浏览器右边框的距离*/
+    padding-left: 60px;
+    /*左边导航栏到浏览器左边框的距离*/
+    padding-right: 30px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: orange;
+
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #196b0c;
+    min-width: 16px;
+
+}
+
+.dropdown-content a {
+    color: rgb(139, 142, 57);
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div#body {
+    align-items: center;
+}
+
+/*问题框*/
+/*问题框*/
+/*问题框*/
+.box {
+    position: relative;
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+/* set text color,type and size,make text in the center of the web page */
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: rgb(148, 146, 48);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 90px;
+    font-weight: lighter;
+}
+/* set text color,type and size,make text in the center of the web page */
+h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(87, 97, 34);
+
+}
+
+h2 {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Sets the style of the links have been visited */
+
+/* Sets the style of the links have not been visited */
+li a:link {
+    color: rgb(108, 134, 34);
+}
+
+p,
+span {
+    font-size: 25px;
+}
+
+i {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 39px;
+}
+
+ul.ulbox li {
+    position: relative;
+    width: 1100px;
+    height: 480px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 5px;
+    background-color: #92aa92d7;
+}
+
+label {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label-one-one {
+    margin-left: 18px;
+}
+
+.label-one-two {
+    margin-left: 16px;
+}
+
+.label-one-three {
+    margin-left: 27px;
+
+}
+
+.label-one-four {
+    margin-left: 28px;
+}
+
+.label-three-one {
+    margin-left: 5px;
+}
+
+.label-three-two {
+    margin-left: -7px;
+}
+
+.label-three-three {
+    margin-left: -8px;
+}
+
+.label-four-one {
+    margin-left: 33px;
+}
+
+.label-four-two {
+    margin-left: 12px;
+}
+
+.label-four-three {
+    margin-left: 12px;
+}
+
+.but {
+    width: 1000px;
+    height: 32px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.btn a {
+    color: #fff;
+}
+
+.btn-one {
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    outline: none;
+    border: 1px solid #BEE5EB;
+    cursor: pointer;
+    width: 90px;
+    height: 60px;
+    background-color: rgb(144, 155, 100);
+    font-size: 30px;
+    color: #ecfdff;
+    align-items: center;
+
+}
+
+.btn-one:hover {
+    color: orange;
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    text-align: left;
+    padding: 20px 20px;
+    background-color: #5e6953c2;
+    border-radius: 5px;
+    color: #d7e4d2;
+    display: none;
+
+}
+
+
+#show {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 568px;
+    height: 370px;
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 0 12px 0 #ccc;
+    display: none;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#show span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: skyblue;
+    color: red;
+    text-align: right;
+    padding-right: 3px;
+    line-height: 15px;
+    font-size: 20px;
+}
+
+.current {
+    display: block;
+    z-index: 999;
+}
+
+
+
+
+
+/* button */
+/* set the button's background color,width,height and position,the text's font family,color and position */
+/* button */
+/* set the button's background color,width,height and position,the text's font family,color and position */
+/* button */
+/* set the button's background color,width,height and position,the text's font family,color and position */
+
+button#previous{
+    background-color: rgb(93, 109, 82);
+    width: 150px;
+    height: 40px;
+    font-size: 35px;
+    color: rgb(230, 245, 226);
+    border: none;
+    position: fixed;
+    left: 40px;
+    bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    text-align : center;
+
+}
+/* set the button's background color,width,height and position,the text's font family,color and position */
+button#next{
+    background-color: rgb(93, 109, 82);
+    width: 150px;
+    height: 40px;
+    font-size: 35px;
+    color: rgb(230, 245, 226);
+    border: none;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    text-align : center
+}
+/* set the button's background color,width,height and position,the text's font family,color and position */
+button#back{
+    background-color: rgb(93, 109, 82);
+    width: 300px;
+    height: 50px;
+    font-size: 35px;
+    color: rgb(230, 245, 226);
+    border: none;
+    position: fixed;
+    left: 800px;
+    bottom: 20px;
+    float: none;
+    font-family: 'Indie Flower', cursive;
+    text-align : center
+}
+/*Footer CSS-------------------------------------------*/
+
